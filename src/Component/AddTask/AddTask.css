@@ -1,0 +1,42 @@
+.ADD {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0c0101a1;
+  margin: 0% 0% 0% 0%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.ADD h3 {
+  color: #5528ad;
+  font-family: 'Bangers';
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+input {
+  width: 80%;
+  border-radius: 50px;
+  padding: 15px;
+  height: 15px;
+  font-size: 22px;
+  font-weight: 800;
+  transition: all 0.15s ease;
+  text-align: center;
+  background-color: #2e2e2e;
+}
+button {
+  font-family: 'Bangers';
+  font-size: 25px;
+  font-weight: 500;
+  background-color:#5528ad;
+  border: none;
+  border-radius: 100px;
+  padding: 1%;
+  width: auto;
+}
+input:focus{
+  outline: none;
+}
